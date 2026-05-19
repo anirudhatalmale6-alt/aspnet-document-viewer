@@ -443,7 +443,10 @@ namespace DocumentViewer
             return ext == ".pdf" || ext == ".txt" || ext == ".jpg" || ext == ".jpeg" ||
                    ext == ".png" || ext == ".gif" || ext == ".bmp" || ext == ".svg" ||
                    ext == ".webp" || ext == ".htm" || ext == ".html" || ext == ".xml" ||
-                   ext == ".json" || ext == ".csv";
+                   ext == ".json" || ext == ".csv" ||
+                   ext == ".doc" || ext == ".docx" || ext == ".rtf" || ext == ".odt" ||
+                   ext == ".xls" || ext == ".xlsx" || ext == ".xlsm" || ext == ".xlsb" ||
+                   ext == ".ppt" || ext == ".pptx" || ext == ".pps" || ext == ".ppsx";
         }
 
         private string GetMimeType(string extension)
